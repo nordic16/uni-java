@@ -1,0 +1,13 @@
+2)
+  b: capitalizar o s
+  c: colocar chaveta para delimitar class
+  d: colocar chaveta para delimitar main
+  e, f: colocar " para delimitar string
+  g: escrever main para que JVM reconheça função main
+  h: colocar ; para delimitar linha de codigo
+  i: adicionar String[] args para permitir programa receber args
+  j: trocar printl para println
+
+3)
+  k: trocar print por println de forma a adicionar um endline (\n) no final de cada string.
+
