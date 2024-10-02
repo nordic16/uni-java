@@ -8,7 +8,7 @@
  */
 public class TabuadaDeA {
     public static void main (String[] args) {
-		int a = 4;
+		int a = 3;
 		
 		System.out.println (a + " x " + 1 + " = " + a  * 1);
 		System.out.println (a + " x " + 2 + " = " + a  * 2);
