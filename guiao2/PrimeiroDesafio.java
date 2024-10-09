@@ -11,7 +11,7 @@
 
  public class PrimeiroDesafio {
     
-    public static void main(String[] args) {
+    public static void primeiroDesafio() {
         double raio = 2;
         double perimetro = 12.56637;
 
@@ -31,12 +31,12 @@
         System.out.println(" > valor correto: 12.56637");
     }
 
-    public static double calcularPi (double raio, double perimetro) {
+    private static double calcularPi (double raio, double perimetro) {
         double pi = perimetro / (2 * raio); // operações de multiplicação entre strings e inteiros não estão definidas em java.
         return pi; // ponto e vírgula.
     }
 
-    public static double areaCirculo (double raio, double pi) {
+    private static double areaCirculo (double raio, double pi) {
         double area;
         area = raio * raio * pi; // == é o operador lógico de igualdade.
         return area;

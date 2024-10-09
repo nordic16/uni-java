@@ -1,11 +1,9 @@
 import java.util.HashMap;
-import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class TerceiroDesafio {
- 
     // note: não gostei desta solução, might figure out better solution later.
-    public static void main(String[] args) {    
+    public static void terceiroDesafio() {    
         HashMap<Integer, String> dezenas = new HashMap<>();
         HashMap<Integer, String> unidades = new HashMap<>();
         HashMap<Integer, String> dez = new HashMap<>();

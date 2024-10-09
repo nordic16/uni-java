@@ -11,7 +11,7 @@
 
  public class SegundoDesafio {
     
-    public static void main(String[] args) {
+    public static void segundoDesafio() {
         int a = 10;
         int b = 15;
         double _ = 10; // int é uma keyword, não pode ser utilizada para nomear uma variável.
@@ -29,12 +29,12 @@
         System.out.println(" > valor correto: true");
     }
 
-    public static double media(int valor1, int valor2) { // falta uma chaveta.
+    private static double media(int valor1, int valor2) { // falta uma chaveta.
         double avg = valor1 + valor2 / 2.0;
         return avg;
     }
 
-    public static boolean maiorQue(int valor1, int valor2) {
+    private static boolean maiorQue(int valor1, int valor2) {
         boolean greater = true; // tem de ser true ou false.
         greater = valor1 > valor1;
         return greater;

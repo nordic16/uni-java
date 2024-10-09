@@ -7,7 +7,7 @@
  * @author IP1819
  */
 public class TabuadaDeA {
-    public static void main (String[] args) {
+    public static void tabuadaDeA() {
 		int a = 3;
 		
 		System.out.println (a + " x " + 1 + " = " + a  * 1);
